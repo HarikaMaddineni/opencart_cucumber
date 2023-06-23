@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.TestRunner" time="74.529" tests="9" errors="4" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\EclipseSelenium\opencart_cucumber\target\test-classes;C:\EclipseSelenium\opencart_cucumber\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dell\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Dell\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dell\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dell\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire8398393301061621225\surefirebooter-20230623175344014_3.jar C:\Users\Dell\AppData\Local\Temp\surefire8398393301061621225 2023-06-23T17-53-43_412-jvmRun1 surefire-20230623175344014_1tmp surefire_0-20230623175344014_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\EclipseSelenium\opencart_cucumber\target\test-classes;C:\EclipseSelenium\opencart_cucumber\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Dell\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dell\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Dell\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dell\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dell\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\EclipseSelenium\opencart_cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire8398393301061621225\surefirebooter-20230623175344014_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="Dell"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\EclipseSelenium\opencart_cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="New User Registration" classname="Account Registration" time="21.767">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigate_to_sucessfull_account_created_page(steps.java:100)
+	at ✽.user Navigate to sucessfull account  created page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/AccountRegistration.feature:17)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: New User Registration                             &amp#27;[90m# Features/AccountRegistration.feature:3&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                 &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                      &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Register&amp#27;[0m                                     &amp#27;[90m# stepDefinitions.steps.click_on_register()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters following details&amp#27;[0m                         &amp#27;[90m# stepDefinitions.steps.user_enters_following_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | FirstName   | saketha               |
+    | LastName    | ch                    |
+    | E-mail      | saketha1.ch@gmail.com |
+    | Telephone   | 12345678              |
+    | password    | 123456                |
+    | cnfPassword | 123456                |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcheck the privacy policy&amp#27;[0m                              &amp#27;[90m# stepDefinitions.steps.check_the_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick continue&amp#27;[0m                                        &amp#27;[90m# stepDefinitions.steps.click_continue()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser Navigate to sucessfull account  created page&amp#27;[0m    &amp#27;[90m# stepDefinitions.steps.user_navigate_to_sucessfull_account_created_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigate_to_sucessfull_account_created_page(steps.java:100)
+	at âœ½.user Navigate to sucessfull account  created page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/AccountRegistration.feature:17)
+&amp#27;[0m
+Scenario status ======>FAILED
+
+    Embedding New User Registration [image/png 116508 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:53:46 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:53:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Successful Login with Valid Credentials" classname="Login with Valid Credentials" time="13.566">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:192)
+	at ✽.User navigates to MyAccount Page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/Login.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@sanity @regression
+Scenario: Successful Login with Valid Credentials                                &amp#27;[90m# Features/Login.feature:4&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                                      &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m                      &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                           &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                             &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters Email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"maddineniharika@gmail.com"&amp#27;[0m&amp#27;[32m and Password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234567"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                                      &amp#27;[90m# stepDefinitions.steps.click_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser navigates to MyAccount Page&amp#27;[0m                                          &amp#27;[90m# stepDefinitions.steps.user_navigates_to_my_account_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:192)
+	at âœ½.User navigates to MyAccount Page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/Login.feature:11)
+&amp#27;[0m
+Scenario status ======>FAILED
+
+    Embedding Successful Login with Valid Credentials [image/png 133317 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:07 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 13129
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #1" classname="Login Data Driven" time="13.52">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:192)
+	at ✽.User navigates to MyAccount Page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDT.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                      &amp#27;[90m# Features/LoginDDT.feature:15&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                              &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m              &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                   &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                     &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters Email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"pavanol@gmail.com"&amp#27;[0m&amp#27;[32m and Password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"test123"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                              &amp#27;[90m# stepDefinitions.steps.click_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser navigates to MyAccount Page&amp#27;[0m                                  &amp#27;[90m# stepDefinitions.steps.user_navigates_to_my_account_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:192)
+	at âœ½.User navigates to MyAccount Page(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDT.feature:11)
+&amp#27;[0m
+Scenario status ======>FAILED
+
+    Embedding Login Data Driven [image/png 132404 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:21 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 25325
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #2" classname="Login Data Driven" time="3.529">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                             &amp#27;[90m# Features/LoginDDT.feature:16&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                                     &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m                     &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                          &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                            &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters Email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"maddineniharika@gmail.com"&amp#27;[0m&amp#27;[32m and Password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                                     &amp#27;[90m# stepDefinitions.steps.click_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser navigates to MyAccount Page&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.steps.user_navigates_to_my_account_page()&amp#27;[0m
+Scenario status ======>PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:34 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1589
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven Excel #1" classname="Login Data Driven with Excel" time="4.461">
+    <system-out><![CDATA[
+Scenario Outline: Login Data Driven Excel                                                      &amp#27;[90m# Features/LoginDDTExcel.feature:12&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                                                    &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m                                    &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                                         &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                                           &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+target page: true
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcheck User navigates to MyAccount Page by passing Email and Password with excel row &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(java.lang.String)&amp#27;[0m
+Scenario status ======>PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:38 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+Jun 23, 2023 5:54:42 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven Excel #2" classname="Login Data Driven with Excel" time="11.576">
+    <error message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dfbc88fa572250d2ba075d351a769f37, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dfbc88fa572250d2ba075d351a769f37" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfbc88fa572250d2ba075d351a769f37, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfbc88fa572250d2ba075d351a769f37
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:252)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "2"(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDTExcel.feature:8)
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: Login Data Driven Excel                                                      &amp#27;[90m# Features/LoginDDTExcel.feature:13&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                                                    &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m                                    &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                                         &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                                           &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+target page: false
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mcheck User navigates to MyAccount Page by passing Email and Password with excel row &amp#27;[0m&amp#27;[31m&amp#27;[1m"2"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfbc88fa572250d2ba075d351a769f37, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfbc88fa572250d2ba075d351a769f37
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:252)
+	at âœ½.check User navigates to MyAccount Page by passing Email and Password with excel row "2"(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDTExcel.feature:8)
+&amp#27;[0m
+Scenario status ======>FAILED
+      &amp#27;[31morg.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfbc88fa572250d2ba075d351a769f37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfbc88fa572250d2ba075d351a769f37
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepDefinitions.steps.tearDown(steps.java:125)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:42 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29468
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven Excel #2" classname="Login Data Driven with Excel" time="11.576">
+    <error message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dfbc88fa572250d2ba075d351a769f37, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dfbc88fa572250d2ba075d351a769f37" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfbc88fa572250d2ba075d351a769f37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfbc88fa572250d2ba075d351a769f37
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepDefinitions.steps.tearDown(steps.java:125)
+]]></error>
+  </testcase>
+  <testcase name="Login Data Driven Excel #3" classname="Login Data Driven with Excel" time="5.065">
+    <error message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [07380306eb409e0338dccb240d4fff63, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 07380306eb409e0338dccb240d4fff63" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07380306eb409e0338dccb240d4fff63, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07380306eb409e0338dccb240d4fff63
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:252)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "3"(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDTExcel.feature:8)
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: Login Data Driven Excel                                                      &amp#27;[90m# Features/LoginDDTExcel.feature:14&amp#27;[0m
+browser chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launch browser&amp#27;[0m                                                                    &amp#27;[90m# stepDefinitions.steps.user_launch_browser()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mopens URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://tutorialsninja.com/demo/index.php"&amp#27;[0m                                    &amp#27;[90m# stepDefinitions.steps.opens_url(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser navigate to MyAccount menu&amp#27;[0m                                                         &amp#27;[90m# stepDefinitions.steps.user_navigate_to_my_account_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Login&amp#27;[0m                                                                           &amp#27;[90m# stepDefinitions.steps.click_on_login()&amp#27;[0m
+target page: false
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mcheck User navigates to MyAccount Page by passing Email and Password with excel row &amp#27;[0m&amp#27;[31m&amp#27;[1m"3"&amp#27;[0m &amp#27;[90m# stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07380306eb409e0338dccb240d4fff63, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07380306eb409e0338dccb240d4fff63
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:252)
+	at âœ½.check User navigates to MyAccount Page by passing Email and Password with excel row "3"(file:///C:/EclipseSelenium/opencart_cucumber/./Features/LoginDDTExcel.feature:8)
+&amp#27;[0m
+Scenario status ======>FAILED
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07380306eb409e0338dccb240d4fff63, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07380306eb409e0338dccb240d4fff63
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepDefinitions.steps.tearDown(steps.java:125)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2023 5:54:54 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 46784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2023 5:54:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven Excel #3" classname="Login Data Driven with Excel" time="5.066">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [07380306eb409e0338dccb240d4fff63, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 07380306eb409e0338dccb240d4fff63" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07380306eb409e0338dccb240d4fff63, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07380306eb409e0338dccb240d4fff63
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepDefinitions.steps.tearDown(steps.java:125)
+]]></error>
+  </testcase>
+</testsuite>

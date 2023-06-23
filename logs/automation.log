@@ -1,0 +1,20 @@
+2023-06-23 15:13:57,812 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 15:14:14,536 [main] WARN  stepDefinitions.steps - Account creation has Failed
+2023-06-23 17:51:23,776 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:53:50,476 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:07,012 [main] WARN  stepDefinitions.steps - Account creation has Failed
+2023-06-23 17:54:09,821 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:10,056 [main] INFO  stepDefinitions.steps - click My lofin in Home page
+2023-06-23 17:54:20,618 [main] INFO  stepDefinitions.steps - login failure
+2023-06-23 17:54:23,425 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:23,686 [main] INFO  stepDefinitions.steps - click My lofin in Home page
+2023-06-23 17:54:34,196 [main] INFO  stepDefinitions.steps - login failure
+2023-06-23 17:54:36,955 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:37,201 [main] INFO  stepDefinitions.steps - click My lofin in Home page
+2023-06-23 17:54:37,825 [main] INFO  stepDefinitions.steps - login success
+2023-06-23 17:54:40,422 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:40,690 [main] INFO  stepDefinitions.steps - click My lofin in Home page
+2023-06-23 17:54:45,087 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:45,344 [main] INFO  stepDefinitions.steps - click My lofin in Home page
+2023-06-23 17:54:56,486 [main] INFO  stepDefinitions.steps - clicked on My Account in Home page
+2023-06-23 17:54:56,747 [main] INFO  stepDefinitions.steps - click My lofin in Home page
